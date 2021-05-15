@@ -1,0 +1,6 @@
+USER_ROLE_SUPER_USER = 1
+USER_ROLE_CLIENT = 2
+USER_ROLES = (
+    (USER_ROLE_SUPER_USER, 'super admin'),
+    (USER_ROLE_CLIENT, 'client'),
+)

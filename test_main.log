@@ -1,0 +1,4 @@
+INFO -- 2021-05-14 22:32:17,196: Category object created, ID: Playstations
+WARNING -- 2021-05-14 22:32:17,197: Category object created, ID: Playstations
+ERROR -- 2021-05-14 22:32:17,197: Category object created, ID: Playstations
+CRITICAL -- 2021-05-14 22:32:17,197: Category object created, ID: Playstations
