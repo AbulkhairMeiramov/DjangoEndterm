@@ -23,3 +23,5 @@ class CommentAdmin(admin.ModelAdmin):
     search_fields = ['message']
 
 
+
+

@@ -2,3 +2,7 @@ INFO -- 2021-05-14 22:32:17,196: Category object created, ID: Playstations
 WARNING -- 2021-05-14 22:32:17,197: Category object created, ID: Playstations
 ERROR -- 2021-05-14 22:32:17,197: Category object created, ID: Playstations
 CRITICAL -- 2021-05-14 22:32:17,197: Category object created, ID: Playstations
+INFO -- 2021-05-15 09:47:24,051: Category object created, ID: Case
+WARNING -- 2021-05-15 09:47:24,052: Category object created, ID: Case
+ERROR -- 2021-05-15 09:47:24,052: Category object created, ID: Case
+CRITICAL -- 2021-05-15 09:47:24,053: Category object created, ID: Case

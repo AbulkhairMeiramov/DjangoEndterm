@@ -1,6 +1,4 @@
 import logging
-from django.http import JsonResponse, HttpResponse
-from django.shortcuts import render
 from django.shortcuts import render
 from api.models import Category, Product, Comment
 from auth_.models import MainUser
@@ -69,6 +67,7 @@ class CategoryViewSet(viewsets.ModelViewSet):
 
 
 class ProductListAPIView(generics.ListCreateAPIView):
+    permission_classes = (AllowAny,)
     logger.debug('Product created')
     queryset = Product.objects.all()
     parser_classes = [MultiPartParser, FormParser, JSONParser]
@@ -83,7 +82,7 @@ class ProductDetailAPIView(generics.RetrieveUpdateDestroyAPIView):
 class CommentViewSet(viewsets.ModelViewSet):
     logger.debug('Comment created')
     queryset = Comment.objects.all()
-    permission_classes = (IsAuthenticated, )
+    permission_classes = (AllowAny,)
     serializer_class = CommentSerializer
 
     def get_queryset(self):

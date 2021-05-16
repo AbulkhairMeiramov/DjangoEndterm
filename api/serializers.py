@@ -38,7 +38,7 @@ class ProductSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Product
-        fields = ('id', 'type', 'color', 'name', 'description', 'price', 'image', 'category_id', 'category',)
+        fields = ('id', 'type', 'color', 'name', 'description', 'price', 'image', 'category_id', 'category', 'cart',)
 
     def validate_price(self, value):
         if value < 1:

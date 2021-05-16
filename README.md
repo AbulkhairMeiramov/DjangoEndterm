@@ -4,6 +4,7 @@ Sulpak, Technodom, Alser and other.
 ## Apps
 * api - application that has a basic structure of the project
 * auth_ - authorization and authentication of the project
+* cart - order process with profile authorization
 ## Installation
 1. Install Django Project
 2. Create virtualenv
